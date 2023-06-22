@@ -1,0 +1,55 @@
+{
+  "name": "@lakaflibrairies/cooljs",
+  "version": "1.0.0",
+  "description": "JS framework that helps build API and site with SSR rendering.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakaflibrairies/cooljs.git"
+  },
+  "keywords": [
+    "API",
+    "javascript",
+    "request",
+    "state-reactive",
+    "lakaf-database",
+    "web",
+    "mail",
+    "payment",
+    "sms",
+    "realtime",
+    "typescript"
+  ],
+  "author": "LaKaf Librairies (Vaneck KAFFO)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakaflibrairies/cooljs/issues"
+  },
+  "homepage": "https://github.com/lakaflibrairies/cooljs#readme",
+  "dependencies": {
+    "@lakaflibrairies/state-reactive": "^1.1.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/multer": "^1.4.4",
+    "@types/node": "^14.0.11",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.5"
+  }
+}
